@@ -33,6 +33,6 @@ jobs:
     - name: Code Coverage
       uses: actions-rs/tarpaulin@v0.1
       with:
-        version: 'latest'
+        version: '0.15.0'
         args: '--out Xml'
 
